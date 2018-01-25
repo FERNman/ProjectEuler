@@ -21,6 +21,15 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BigInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumbersInWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
