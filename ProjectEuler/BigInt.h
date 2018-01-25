@@ -35,6 +35,8 @@ public:
 
 	BigInt(std::string s)
 	{
+		std::reverse(s.begin(), s.end());
+
 		for (int i = 0; i < s.length(); i++)
 		{
 			mDigits.push_back(s[i] - '0');
