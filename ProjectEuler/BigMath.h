@@ -8,7 +8,7 @@ namespace BigMath
 	{
 		if (e == 0)
 		{
-			return BigInt(0);
+			return BigInt(0u);
 		}
 
 		BigInt ret(n);
@@ -18,5 +18,16 @@ namespace BigMath
 		}
 
 		return ret;
+	}
+
+	BigInt Factorial(unsigned long long n)
+	{
+		BigInt result(n);
+		for (unsigned int i = n - 1; i > 0; i--)
+		{
+			result = result * BigInt(i);
+		}
+
+		return result;
 	}
 }
