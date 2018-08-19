@@ -143,8 +143,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BigInt.h" />
+    <ClInclude Include="BigMath.h" />
+    <ClInclude Include="Problem 1.h" />
+    <ClInclude Include="Problem 10.h" />
+    <ClInclude Include="Problem 11.h" />
+    <ClInclude Include="Problem 12.h" />
+    <ClInclude Include="Problem 13.h" />
+    <ClInclude Include="Problem 14.h" />
+    <ClInclude Include="Problem 15.h" />
+    <ClInclude Include="Problem 16.h" />
+    <ClInclude Include="Problem 17.h" />
+    <ClInclude Include="Problem 18.h" />
+    <ClInclude Include="Problem 19.h" />
+    <ClInclude Include="Problem 2.h" />
+    <ClInclude Include="Problem 3.h" />
+    <ClInclude Include="Problem 4.h" />
+    <ClInclude Include="Problem 5.h" />
+    <ClInclude Include="Problem 6.h" />
+    <ClInclude Include="Problem 7.h" />
+    <ClInclude Include="Problem 8.h" />
+    <ClInclude Include="Problem 9.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProjectEuler.cpp" />
