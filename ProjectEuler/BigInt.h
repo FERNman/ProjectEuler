@@ -12,19 +12,19 @@ public:
 
 	}
 
-	BigInt(int i)
-		:BigInt(static_cast<long long>(i))
+	BigInt(unsigned int i)
+		:BigInt(static_cast<unsigned long long>(i))
 	{
 		
 	}
 
-	BigInt(long i)
-		:BigInt(static_cast<long long>(i))
+	BigInt(unsigned long i)
+		:BigInt(static_cast<unsigned long long>(i))
 	{
 
 	}
 
-	BigInt(long long i)
+	BigInt(unsigned long long i)
 	{
 		while (i > 0)
 		{

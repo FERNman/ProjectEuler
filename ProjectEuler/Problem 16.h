@@ -7,7 +7,7 @@ namespace Problems
 {
 	std::string powerDigitSum()
 	{
-		BigInt myInt(2);
+		BigInt myInt(2u);
 
 		BigInt product = BigMath::Pow(myInt, 1000);
 

@@ -157,6 +157,7 @@
     <ClInclude Include="Problem 18.h" />
     <ClInclude Include="Problem 19.h" />
     <ClInclude Include="Problem 2.h" />
+    <ClInclude Include="Problem 20.h" />
     <ClInclude Include="Problem 3.h" />
     <ClInclude Include="Problem 4.h" />
     <ClInclude Include="Problem 5.h" />
